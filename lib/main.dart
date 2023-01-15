@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, unrelated_type_equality_checks
 
+import 'package:animation_learning/main2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Animation Learning",
-      home: HomePage(),
+      home: HomePage2(),
     );
   }
 }
